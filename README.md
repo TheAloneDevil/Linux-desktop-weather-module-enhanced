@@ -36,9 +36,9 @@ cp user_modules.ini ~/YourPath/
 
 chmod +x ~/YourPath/weather.sh
 
-### Step 4: Get API Key
+### Step 4: Get API Key and City ID
 
-Edit weather.sh:
+Edit weather.sh (lines 8-9):
 
 **Getting CITY_ID:**
 1. Go to https://openweathermap.org/cities
@@ -51,7 +51,13 @@ Edit weather.sh:
 2. Sign up at https://openweathermap.org (if needed)
 3. Go to API Keys section
 4. Click "Create New API Key" - give it a name (e.g., "Newbar")
-5. Copy the key and paste in weather.sh
+5. Copy the key
+
+Update weather.sh:
+```bash
+CITY_ID="1234567"  # Line 8 - Your city ID
+API_KEY="your_key"  # Line 9 - Your API key
+```
 
 ```bash
 CITY_ID="1234567"  # Your city ID
