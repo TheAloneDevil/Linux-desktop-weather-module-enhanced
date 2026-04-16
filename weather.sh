@@ -111,8 +111,8 @@ get_icon_color() {
     case $condition in
         01d) echo "#F98006" ;;  # Sun - orange
         01n) echo "#87CEEB" ;;  # Moon - light blue
-        02d) echo "#CC9900" ;;  # Few clouds day - Orangish Yellow
-        02n) echo "#3C3C5D" ;;  # Few clouds night - Purple
+        02d) echo "#B2AB99" ;;  # Few clouds day - Grey
+        02n) echo "#92B9B9" ;;  # Few clouds night - Purple
         03*) echo "#CFD8DC" ;;  # Scattered clouds - light gray
         04*) echo "#B0BEC5" ;;  # Broken/overcast - lighter gray
         09*) echo "#29B6F6" ;;  # Shower rain - vibrant light blue
